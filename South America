@@ -1,0 +1,36 @@
+----------------------FifthActivity---------------------
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FivthActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About SOUTH AMERICA "
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="South America is a continent entirely in the Western Hemisphere and mostly in the Southern Hemisphere, with a relatively small portion in the Northern Hemisphere. It can also be described as a southern subcontinent of the Americas. "
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp"/>
+
+
+
+</RelativeLayout>
